@@ -1,0 +1,133 @@
+* {
+    padding: 0;
+    margin: 0;
+    outline: none;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+}
+
+.header {
+    padding: 16px 0px;
+}
+
+.container {
+    width: 90%;
+    margin: auto;
+}
+
+.headerContainer {
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+}
+
+.locus1 {
+    color: #58A9A5;
+    height: 53px;
+    left: 217.14px;
+    top: 95px;
+    width: 105px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 35px;
+
+}
+
+.logo {
+    display: inline-block;
+    font-size: 35px;
+    color: #58A9A5;
+    width: 105px;
+    height: 53px;
+    left: 217.14px;
+    top: 95px;
+}
+
+.navLinks {
+    width: 50%;
+}
+
+.links {
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+}
+
+.link {
+    font-size: 20px;
+    color: white;
+    font-family: 'Kolker Brush', cursive;
+}
+
+.item {
+    color: white;
+    font-weight: 700;
+    font-size: 25px;
+    color: #58A9A5;
+    font-family: 'Roboto';
+    position: relative;
+    animation: ani 1s infinite 6s;
+}
+
+
+
+.item::after {
+    content: "";
+    width: 48px;
+    height: 6px;
+    background-color: #FEC62D;
+    ;
+    border-radius: 21px;
+    position: absolute;
+    bottom: -10px;
+    left: 18%;
+}
+
+.signUpbutton {
+
+    width: 271px;
+    height: 80px;
+    left: 1507px;
+    top: 85px;
+    background: #58A9A5;
+    border-radius: 15px;
+    font-size: 25px;
+    color: white;
+}
+
+.bexa {
+    position: absolute;
+    width: 674px;
+    height: 315px;
+    left: 300px;
+    top: 318px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 70px;
+    line-height: 105px;
+    color: #1C2323;
+}
+
+.square{
+    
+position: absolute;
+width: 743px;
+height: 180px;
+left: 166px;
+top: 683px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 30px;
+line-height: 45px;
+
+color: black;
+}
